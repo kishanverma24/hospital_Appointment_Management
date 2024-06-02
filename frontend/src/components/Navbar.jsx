@@ -57,7 +57,11 @@ const Navbar = () => {
             </button>
           )}
         </div>
-        <div className="hamburger" style={{cursor:"pointer"}} onClick={() => setShow(!show)}>
+        <div
+          className="hamburger"
+          style={{ cursor: "pointer" }}
+          onClick={() => setShow(!show)}
+        >
           <GiHamburgerMenu />
         </div>
       </nav>
