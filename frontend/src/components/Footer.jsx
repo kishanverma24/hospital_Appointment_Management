@@ -1,4 +1,7 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import { FaLocationArrow, FaPhone } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
 
 function Footer() {
   const hours = [
@@ -15,7 +18,7 @@ function Footer() {
     },
   ];
   return (
-<>
+    <>
       <footer className={"container"}>
         <hr />
         <div className="content">
@@ -58,7 +61,8 @@ function Footer() {
           </div>
         </div>
       </footer>
-    </>  )
+    </>
+  );
 }
 
-export default Footer
+export default Footer;
